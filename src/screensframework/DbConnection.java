@@ -13,14 +13,14 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author admin
+ * @author T
  */
 public class DbConnection {
 
     public Connection Connect() {
         try {
             //Your database url string,ensure it is correct
-            String url = "jdbc:mysql://localhost:3306/users";
+            String url = "jdbc:mysql://localhost:3306/fys";
             String user = "root";
             String password = "root";
 

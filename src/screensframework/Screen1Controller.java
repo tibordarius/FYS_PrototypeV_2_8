@@ -40,11 +40,12 @@
 
 package screensframework;
 
-import java.net.URL;
-import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+
+import java.net.URL;
+import java.util.ResourceBundle;
 
 /**
  * FXML Controller class
@@ -61,6 +62,8 @@ public class Screen1Controller implements Initializable, ControlledScreen {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }
+
+
     
     public void setScreenParent(ScreensController screenParent){
         myController = screenParent;
